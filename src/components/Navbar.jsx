@@ -7,7 +7,7 @@ const Navbar = () => {
         <Link to="/" className="font-bold text-3xl">PicPrism</Link>
       </div>
 
-      <ul className="flex gap-5 text-lg font-semibold text-gray-400">
+      <ul className="flex gap-5 text-lg font-semibold text-gray-400 ml-5">
         <Link to="/" className="hover:text-black cursor-pointer sm:p-2">About</Link>
         <Link to="/" className="hover:text-black cursor-pointer sm:p-2">contact</Link>
         <Link to="/login" className="hover:text-black cursor-pointer sm:p-2">Log In</Link>
